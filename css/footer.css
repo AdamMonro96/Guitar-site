@@ -1,0 +1,56 @@
+.grey-wrapper{
+    background: #E5E5E5;
+    margin-top: 219px;
+    padding: 80px 0 43px 0;
+}
+.logo__text_footer{
+font-family: 'Cal Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+}
+.logo__pic_footer{
+width: 40px;
+height: 40px;
+}
+.contacts{
+display: flex;
+gap:20px;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #666666;
+}
+.social-links{
+    display: flex;
+    gap: 32px;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pages__title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-transform: uppercase;
+color: #121212;
+}
+.pages__page{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: rgba(18, 18, 18, 0.6);
+}
+.pages__page:hover, .pages__page:active{
+color: #FF6428;
+}

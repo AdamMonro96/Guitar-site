@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Cal Sans"; 
+    src: url("/fonts/Cal-sans/fonts/webfonts/CalSans-SemiBold.ttf") format("truetype"); 
+    src: url("/fonts/Cal-sans/fonts/webfonts/CalSans-SemiBold.woff") format("woff");
+    src: url("/fonts/Cal-sans/fonts/webfonts/CalSans-SemiBold.woff2") format("woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+    @font-face {
+        font-family: "Poppins"; 
+        font-style: normal;
+        font-weight: 400; 
+        src: url("/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: "Poppins"; 
+        font-style: normal;
+        font-weight: 500; 
+        src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: "Poppins"; 
+        font-style: normal;
+        font-weight: 600; 
+        src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+        }

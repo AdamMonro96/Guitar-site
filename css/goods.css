@@ -1,0 +1,68 @@
+.screen-title{
+font-family: 'Cal Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 53px;
+color: #121212;
+margin-top: 220px;
+margin-bottom: 80px;
+text-align: center;
+}
+.screen-title_invert{
+    color: white;
+    margin-top: 93px;
+}
+.store-title{
+display: flex;
+justify-content: space-between;
+margin-bottom: 32px;
+margin-top: 86px;
+}
+.store-title__text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.08em;
+color: #121212;
+}
+.store-title__button{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #868686;
+}
+.store-title__button:hover{
+color: #FF6428;
+}
+.goods{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.goods-card__title{
+margin-top: 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #121212;
+}
+.goods-card__price{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #666666;
+}
+.goods-card_hidden{
+display: none;
+}

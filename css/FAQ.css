@@ -1,0 +1,39 @@
+.accordion-title {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    box-shadow: lightgray 0px 0px 5px 1px;
+  }
+  .accordion-title_active, .accordion-title:hover {
+    background-color:#FF6428;
+    color: white;
+    box-shadow: none;
+  }
+  .accordion-panel {
+    padding: 0 18px;
+    background-color: #FF6428;
+    color: white;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-panel p{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }

@@ -1,0 +1,64 @@
+p{
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main-screen__image{
+    position: absolute;
+    top:0;
+    right: 0;
+    max-width: 50%;
+}
+.main-screen__title{
+    font-family: 'Cal Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 67px;
+color: #121212;
+}
+.main-screen__subtitle{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #666666;
+margin-top: 16px;
+}
+.main-screen{
+margin-top: 144px;
+}
+.main-screen__buttons{
+    display: flex;
+    gap: 40px;
+    margin-top: 33px;
+    align-items: center;
+}
+.main-screen__appbutton{
+    width: 27px;
+    height: 30px;
+
+}
+.main-screen__button{
+    border: none;
+    border-radius: 30px;
+    background-color:#FF6428;
+    padding: 18px 48px 18px 48px;
+    color: white;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.main-screen__button:hover, .main-screen__button:active{
+background-color: #121212;
+color: white;
+transition: 0.5s;
+}
+.orange-word{
+    color:#FF6428;
+}
