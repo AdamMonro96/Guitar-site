@@ -4,7 +4,7 @@ let buttons = document.querySelectorAll('.customer-buttons__button');
 let texts = document.querySelectorAll('.customer-quote__text');
 let mainImage = document.querySelector(".customer-img__photo");
 let customerName = document.querySelector(".customer-quote__name");
-let images = ["/img/customers/1.png", "/img/customers/2.png", "/img/customers/3.png", "/img/customers/4.png"];
+let images = ["img/customers/1.png", "img/customers/2.png", "img/customers/3.png", "img/customers/4.png"];
 let names = ["Ryan Wels", "Adam Levin", "Jack Holland", "Max Mid"];
 
 console.log(buttons);

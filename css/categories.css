@@ -5,7 +5,7 @@
     row-gap: 50px;
 }
 .category-card{
-    background-image: url("/img/Rectangle\ 139.png");
+    background-image: url("img/Rectangle\ 139.png");
     background-size: cover;
     width: 220px;
     height: 280px;
@@ -24,11 +24,11 @@ color: #FFFFFF;
 margin-bottom: 30px;
 }
 .category-card_electric{
-    background-image: url("/img/Rectangle\ 140.png");  
+    background-image: url("img/Rectangle\ 140.png");  
 }
 .category-card_basses{
-    background-image: url("/img/Rectangle\ 141.png");  
+    background-image: url("img/Rectangle\ 141.png");  
 }
 .category-card_collections{
-    background-image: url("/img/Rectangle\ 142.png");  
+    background-image: url("img/Rectangle\ 142.png");  
 }
